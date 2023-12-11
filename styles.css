@@ -1,0 +1,21 @@
+.button-container
+ {
+    display:flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100vh; /* Make the container full viewport height for vertical centering */
+    
+
+}
+.button-container button {
+    padding: 5% 7%; /* Adjust the padding to increase button size */
+    font-size: 40px; /* Adjust the font size for button text */
+    margin: 5%;
+}
+h1{
+    align-items: center; /* Vertical centering */
+    
+    display:flex;
+    justify-content: center; /* Horizontal centering */
+    flex-direction: column;
+}
